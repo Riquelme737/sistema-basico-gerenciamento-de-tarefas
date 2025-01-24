@@ -16,7 +16,6 @@ public class Sistema {
                 switch (opcao) {
                     case 1:
                         System.out.println("Qual tarefa deseja adicionar? ");
-                        scanner.nextLine();
                         String tarefa = scanner.nextLine();
                         Tarefa.adicionarTarefa(tarefa);
                         break;
